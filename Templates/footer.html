@@ -1,0 +1,22 @@
+<!--END CHANGABLE CONTENT-->
+
+<?php
+
+
+if((is_admin() && (basename($_SERVER['PHP_SELF']) != 'logout.php'))
+OR (isset($loggedin) && $loggedin))
+{
+    //create links
+
+    echo '<hr><h3>SITE ADMIN</h3> <p><a href="index.php">Home</a> --- <a href="add_quote.php">Add Quote</a> ---
+    <a href="view_quotes.php">View All Quotes</a> --- <a href="logout.php">Log Out</a> </p>';
+}
+    
+
+?>
+     
+<div>Content &copy; 2020</div>
+</div>
+
+</body>
+</html>
