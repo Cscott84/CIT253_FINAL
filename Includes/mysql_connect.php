@@ -3,9 +3,9 @@
 // connect to mysql database and set charset for security functions
 
 define('HOST','localhost');
-define('USER','root');
-define('PW','password');
-define('DB','myquotes');
+define('USER','*****');
+define('PW','*******');
+define('DB','******');
 
 $dbc = mysqli_connect(HOST,USER,PW,DB);
 
