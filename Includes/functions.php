@@ -3,7 +3,7 @@
 
 // function to check for admin
 
-function is_admin($name='pete',$value='rock')
+function is_admin($name='***',$value='***')
 {
     if(isset($_COOKIE[$name]) && ($_COOKIE[$name] == $value))
     {
